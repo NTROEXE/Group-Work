@@ -4,7 +4,8 @@ import arcade
 def print_car():
     # Draw Car
     arcade.draw_rectangle_filled(300,100, 250, 100, arcade.csscolor.PINK)
-
+    arcade.draw_circle_filled(210, 50, 25, arcade.csscolor.BLACK)
+    arcade.draw_circle_filled(390, 50, 25, arcade.csscolor.BLACK)
 
 def print_snowman():
 # Draw snowman
